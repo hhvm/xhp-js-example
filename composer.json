@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+     "type": "vcs",
+     "url": "https://github.com/hhvm/xhp-js"
+    }
+  ],
+  "require": {
+    "facebook/xhp-lib": "~2.2.0",
+    "hhvm/xhp-js": "dev-master"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "npm install && npm run build"
+    ]
+  }
+}

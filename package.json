@@ -1,0 +1,35 @@
+{
+  "description": "Easily create JS controllers for XHP elements, and XHP wrappers for React elements",
+  "scripts": {
+    "build": "npm run build:example",
+    "build:example": "npm run build:exampleBundle && npm run build:exampleJSX",
+    "build:exampleBundle": "browserify -r xhpjs -r react -r MyJSController -r MyJSModule -r MyReactClass -o build/bundle.js",
+    "build:exampleJSX": "jsx js/ build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hhvm/xhp-js-example.git"
+  },
+  "author": "Fred Emmott",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/hhvm/xhp-js/issues"
+  },
+  "dependencies": {
+    "xhpjs": "0.0.2",
+    "browserify": "~9.0.8",
+    "reactify": "~1.1.0",
+    "react": "~0.13.1",
+    "react-tools": "~0.13.1"
+  },
+  "browser": {
+    "MyJSController": "./js/MyJSController.js",
+    "MyJSModule": "./js/MyJSModule.js",
+    "MyReactClass": "./js/MyReactClass.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
