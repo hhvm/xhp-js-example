@@ -13,7 +13,7 @@
   "author": "Fred Emmott",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/hhvm/xhp-js/issues"
+    "url": "https://github.com/hhvm/xhp-js-example/issues"
   },
   "dependencies": {
     "xhpjs": "0.0.2",
