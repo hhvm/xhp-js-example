@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "097386b23543b559e88848793c65c7f6",
+    "hash": "afd371fe35284413d1150978c18e687b",
     "packages": [
         {
             "name": "facebook/xhp-lib",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/xhp-lib.git",
-                "reference": "45e4542d0fcaa3dfe39bf33e81ec4e1ff520b0a6"
+                "reference": "87cfd8fea00ec19dc0e4fb682cae111601c66adb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/45e4542d0fcaa3dfe39bf33e81ec4e1ff520b0a6",
-                "reference": "45e4542d0fcaa3dfe39bf33e81ec4e1ff520b0a6",
+                "url": "https://api.github.com/repos/facebook/xhp-lib/zipball/87cfd8fea00ec19dc0e4fb682cae111601c66adb",
+                "reference": "87cfd8fea00ec19dc0e4fb682cae111601c66adb",
                 "shasum": ""
             },
             "require": {
@@ -50,20 +50,20 @@
                 "hhvm",
                 "xhp"
             ],
-            "time": "2015-05-14 21:47:55"
+            "time": "2015-06-29 21:19:41"
         },
         {
             "name": "hhvm/xhp-js",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hhvm/xhp-js.git",
-                "reference": "a85191e3fb538e8f698c71d8a2fcb1e81153d6b0"
+                "url": "https://github.com/hhvm/xhp-js.git",
+                "reference": "ea7974b64876838231cd8eb36e348f3d28f94bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hhvm/xhp-js/zipball/a85191e3fb538e8f698c71d8a2fcb1e81153d6b0",
-                "reference": "a85191e3fb538e8f698c71d8a2fcb1e81153d6b0",
+                "url": "https://api.github.com/repos/hhvm/xhp-js/zipball/ea7974b64876838231cd8eb36e348f3d28f94bfb",
+                "reference": "ea7974b64876838231cd8eb36e348f3d28f94bfb",
                 "shasum": ""
             },
             "require": {
@@ -75,25 +75,15 @@
                     "src/"
                 ]
             },
-            "scripts": {
-                "post-install-cmd": [
-                    "npm install && npm run build"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Easily create JS controllers for XHP elements, and XHP wrappers for React elements",
-            "support": {
-                "source": "https://github.com/hhvm/xhp-js/tree/master",
-                "issues": "https://github.com/hhvm/xhp-js/issues"
-            },
-            "time": "2015-06-23 22:46:56"
+            "time": "2015-07-09 16:48:17"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "hhvm/xhp-js": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

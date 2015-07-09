@@ -16,7 +16,7 @@
     "url": "https://github.com/hhvm/xhp-js-example/issues"
   },
   "dependencies": {
-    "xhpjs": "0.0.2",
+    "xhpjs": "~1.0.0",
     "browserify": "~9.0.8",
     "reactify": "~1.1.0",
     "react": "~0.13.1",
