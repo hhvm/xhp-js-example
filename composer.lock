@@ -30,7 +30,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "2.x-dev",,,,
+                    "dev-main": "2.x-dev"
                 }
             },
             "autoload": {

@@ -2,3 +2,4 @@ node_modules/
 vendor/
 www.pid
 *.swp
+.var/
